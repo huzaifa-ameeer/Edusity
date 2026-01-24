@@ -1,0 +1,38 @@
+.footer{
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #797979;
+    padding: 15px 0;
+}
+.footer ul{
+    padding: 5px;
+    display: flex;
+    /* margin-right: 10px; */
+    list-style: none;
+    margin-right: 15px;
+}
+.footer ul li{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+@media (max-width:600px) {
+    .footer {
+        flex-direction: column; 
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer ul {
+        margin-top: 10px;
+        justify-content: center;
+        width: 100%; 
+        padding: 0;
+    }
+
+    .footer ul li {
+        margin: 0 10px; 
+    }
+}

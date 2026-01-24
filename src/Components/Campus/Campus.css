@@ -1,0 +1,46 @@
+.campus{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.gallery img{
+    cursor: pointer;
+    width: 23%;
+    border-radius: 10px;
+}
+.btn.dark{
+    cursor: pointer;
+    padding: 17px 25px;
+    font-size: 18px;
+    border-radius: 30px;
+    outline: 0;
+    border: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #212EA0;
+    color: white;
+}
+.btn.dark img{
+    margin: 0 auto;
+    padding-left: 5px;
+    width: 25px;
+}
+
+@media (max-width:800px) {
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery img{
+        width: 48%;
+        margin-bottom: 25px;
+    }
+}
